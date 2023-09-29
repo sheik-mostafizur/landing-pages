@@ -1,0 +1,276 @@
+/* fonts google */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+/* font-family: 'IBM Plex Sans Thai Looped', sans-serif; */
+/* font-family: 'Merienda', cursive; */
+
+/* reset all   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+/* color  */
+:root {
+  --red-1: #db5456;
+  --hover: #ff4144;
+  --white: #ffffff;
+  --black: #000000;
+  --black-1: #90989e;
+  --breakfast: #eee;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--black-1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merienda", cursive;
+  color: var(--black);
+}
+/* grid */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container .row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .row [class*="col-"] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  float: left;
+}
+
+.container .row .col-1 {
+  width: 8.33333%;
+}
+
+.container .row .col-2 {
+  width: 16.66667%;
+}
+
+.container .row .col-3 {
+  width: 25%;
+}
+
+.container .row .col-4 {
+  width: 33.33333%;
+}
+
+.container .row .col-5 {
+  width: 41.66667%;
+}
+
+.container .row .col-6 {
+  width: 50%;
+}
+
+.container .row .col-7 {
+  width: 58.33333%;
+}
+
+.container .row .col-8 {
+  width: 66.66667%;
+}
+
+.container .row .col-9 {
+  width: 75%;
+}
+
+.container .row .col-10 {
+  width: 83.33333%;
+}
+
+.container .row .col-11 {
+  width: 91.66667%;
+}
+
+.container .row .col-12 {
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: var(--white);
+  background: var(--red-1);
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: var(--hover);
+}
+.heading {
+  font-size: 3rem;
+}
+
+/* start header aera  */
+header {
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header .content {
+  max-width: 500px;
+}
+header h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+header h1 span {
+  color: var(--red-1);
+}
+header p {
+  margin: 2rem 0;
+}
+header .header-image img {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  margin-bottom: -15rem;
+}
+/* end header aera  */
+
+/* start breakfast area */
+#breakfast {
+  padding: 5rem 2rem;
+  background: var(--breakfast);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#breakfast .content {
+  max-width: 300px;
+  height: 430px;
+  padding: 2rem;
+  background: var(--white);
+}
+#breakfast .content p {
+  margin: 2rem 0;
+}
+#breakfast .image img {
+  height: 500px;
+  width: 1200px;
+  margin-bottom: -10rem;
+  margin-top: 10rem;
+}
+/* end breakfast area */
+
+/* start fast food area */
+#fastfood {
+  padding: 10rem 4rem;
+  background-image: url(../images/fastfood.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#fastfood h2 {
+  padding: 1rem 0;
+  font-size: 5rem;
+  color: var(--white);
+}
+#fastfood h3 {
+  color: var(--white);
+  font-size: 2rem;
+}
+/* end fast food area */
+
+/* start delivery area  */
+#delivery {
+  padding: 10rem 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#delivery .image img {
+  border-radius: 50%;
+  margin-bottom: -20rem;
+}
+#delivery .content {
+  max-width: 350px;
+  height: 450px;
+  padding: 2rem;
+  background-color: var(--breakfast);
+}
+#delivery .content p {
+  margin: 2rem 0;
+}
+/* end delivery area  */
+
+/* start burger area */
+#burger {
+  padding: 5rem 2rem;
+  background-color: var(--black);
+}
+/* end burger area */
+
+/* start footer area  */
+footer {
+  padding: 5rem 0;
+}
+footer p a{
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: block;
+  color: var(--black-1);
+}
+footer p a:hover{
+  text-decoration: underline;
+}
+footer .social-icon img {
+  width: 50px;
+  height: 50px;
+  margin: 0 1rem;
+  padding: 5px;
+  transition: .5s;
+  outline: 2px solid transparent;
+  border-radius: 50%;
+}
+footer .social-icon a:hover img{
+  outline: 2px solid var(--red-1);
+  border-radius: 50%;
+}
+footer form input[type="email"] {
+  width: 70%;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background: var(--white);
+  border: 2px solid var(--red-1);
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin-right: -2rem;
+}
+
+footer form input[type="button"] {
+  outline: none;
+  outline: none;
+  margin-left: -1rem;
+  border: 2px solid var(--red-1);
+}
+/* end footer area  */

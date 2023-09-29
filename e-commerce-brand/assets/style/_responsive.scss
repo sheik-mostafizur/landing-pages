@@ -1,0 +1,52 @@
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    .row {
+      [class*="col-m-"] {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        float: left;
+      }
+      @for $i from 1 through 12 {
+        .col-m-#{$i} {
+          width: 100% / 12 * $i;
+        }
+      }
+      &::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    }
+  }
+  // start header area 
+  header nav ul {
+    text-align: left !important;
+  }
+  // start creative
+  #creative h2 {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  // start comfortable
+  #comfortable .com-con h2 {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  // start footer area 
+  footer #news-letter .email-sub input {
+    width: 250px !important;
+  }
+  footer #foter-bottom nav ul li a {
+    padding: 5px !important;
+    font-size: 12px !important;
+  }
+  footer #foter-bottom .copyright {
+    font-size: 12px !important;
+  }
+}
+
+
+

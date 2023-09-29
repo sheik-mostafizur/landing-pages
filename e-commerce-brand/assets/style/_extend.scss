@@ -1,0 +1,13 @@
+.btn{
+  display: inline-block;
+  color: $white;
+  background: $black;
+  border: 2px solid $gray_1;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transition: .5s;
+  &:hover{
+    background: $gainsboro;
+    color: $black;
+  }
+}

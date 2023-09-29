@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container .row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .row [class*="col-"] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  float: left;
+}
+
+.container .row .col-1 {
+  width: 8.33333%;
+}
+
+.container .row .col-2 {
+  width: 16.66667%;
+}
+
+.container .row .col-3 {
+  width: 25%;
+}
+
+.container .row .col-4 {
+  width: 33.33333%;
+}
+
+.container .row .col-5 {
+  width: 41.66667%;
+}
+
+.container .row .col-6 {
+  width: 50%;
+}
+
+.container .row .col-7 {
+  width: 58.33333%;
+}
+
+.container .row .col-8 {
+  width: 66.66667%;
+}
+
+.container .row .col-9 {
+  width: 75%;
+}
+
+.container .row .col-10 {
+  width: 83.33333%;
+}
+
+.container .row .col-11 {
+  width: 91.66667%;
+}
+
+.container .row .col-12 {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #bdbab6;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn:hover {
+  background: #DADADA;
+  color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .container .row [class*="col-m-"] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  .container .row .col-m-1 {
+    width: 8.33333%;
+  }
+  .container .row .col-m-2 {
+    width: 16.66667%;
+  }
+  .container .row .col-m-3 {
+    width: 25%;
+  }
+  .container .row .col-m-4 {
+    width: 33.33333%;
+  }
+  .container .row .col-m-5 {
+    width: 41.66667%;
+  }
+  .container .row .col-m-6 {
+    width: 50%;
+  }
+  .container .row .col-m-7 {
+    width: 58.33333%;
+  }
+  .container .row .col-m-8 {
+    width: 66.66667%;
+  }
+  .container .row .col-m-9 {
+    width: 75%;
+  }
+  .container .row .col-m-10 {
+    width: 83.33333%;
+  }
+  .container .row .col-m-11 {
+    width: 91.66667%;
+  }
+  .container .row .col-m-12 {
+    width: 100%;
+  }
+  .container .row::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  header nav ul {
+    text-align: left !important;
+  }
+  #creative h2 {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  #comfortable .com-con h2 {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+  }
+  footer #news-letter .email-sub input {
+    width: 250px !important;
+  }
+  footer #foter-bottom nav ul li a {
+    padding: 5px !important;
+    font-size: 12px !important;
+  }
+  footer #foter-bottom .copyright {
+    font-size: 12px !important;
+  }
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+header .logo img {
+  padding: 1rem;
+}
+
+header nav ul {
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: block;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+header .search-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .search-cart img {
+  width: 15px;
+  margin: 1rem;
+}
+
+header .search-cart span {
+  margin-top: 1rem;
+}
+
+header .banner {
+  padding-top: 1rem;
+}
+
+header .banner .b-left,
+header .banner .b-meddle,
+header .banner .b-right-top,
+header .banner .b-right-bottom {
+  position: relative;
+}
+
+header .banner .b-left h2,
+header .banner .b-meddle h2,
+header .banner .b-right-top h2,
+header .banner .b-right-bottom h2 {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+
+header .banner .b-right-bottom {
+  margin-top: 14px;
+}
+
+#products {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+#products h2 {
+  padding-top: 4rem;
+}
+
+#products .see-all-cate {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#products .see-all-cate img {
+  width: 100px;
+  margin-right: 1rem;
+}
+
+#products .see-all-cate a {
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#products .see-all-cate a:hover {
+  color: #DADADA;
+}
+
+#products .see-all-cate a img {
+  width: 15px;
+  margin-left: 1rem;
+  margin-bottom: -4px;
+}
+
+#creative {
+  background-image: url(../images/products/creative.png);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  margin: 5rem 0;
+}
+
+#creative h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+#creative p {
+  padding: 1rem 0;
+}
+
+#trending {
+  padding: 4rem 0;
+}
+
+#trending h2 {
+  padding-bottom: 2rem;
+}
+
+#comfortable {
+  background: #DBF3FF;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+#comfortable .com-con {
+  padding-left: 3rem;
+}
+
+#comfortable .com-con h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+#comfortable .com-con p {
+  padding: 2rem 0;
+}
+
+footer #news-letter {
+  text-align: center;
+  padding: 8rem 0;
+  background-color: #191919;
+}
+
+footer #news-letter h2 {
+  color: #ffffff;
+}
+
+footer #news-letter .email-sub {
+  padding: 2rem 0;
+}
+
+footer #news-letter .email-sub input {
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  width: 400px;
+}
+
+footer #news-letter .email-sub button {
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+footer #news-letter .email-sub button img {
+  width: 15px;
+  margin-bottom: -3px;
+}
+
+footer #foter-bottom {
+  background-color: #000000;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer #foter-bottom nav ul li {
+  display: inline-block;
+}
+
+footer #foter-bottom nav ul li a {
+  display: block;
+  text-transform: uppercase;
+  color: #bdbab6;
+  font-weight: bold;
+  padding: 1rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer #foter-bottom nav ul li a:hover {
+  color: #ffffff;
+}
+
+footer #foter-bottom .copyright {
+  color: #bdbab6;
+  padding-top: 2rem;
+}
+
+footer #foter-bottom .copyright a {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

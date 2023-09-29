@@ -1,0 +1,192 @@
+@import 'all';
+// start all code here 
+// start header area 
+header{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  .logo{
+    img{
+      padding: 1rem;
+    }
+  }
+  nav{
+    ul{
+      text-align: right;
+      li{
+        display: inline-block;
+        a{
+          display: block;
+          color: $black;
+          text-transform: uppercase;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  .search-cart{
+    display: flex;
+    img{
+      width: 15px;
+      margin: 1rem;
+    }
+    span{
+      margin-top: 1rem;
+    }
+  }
+  .banner{
+    padding-top: 1rem;
+    @mixin rel{
+      position: relative;
+    }
+    @mixin abs {
+      position: absolute;
+      top: 70%;
+      left: 20%;
+    }
+    .b-left,
+    .b-meddle,
+    .b-right-top,
+    .b-right-bottom{
+      @include rel;
+      h2{
+        @include abs;
+      }
+    }
+    .b-right-bottom{
+      margin-top: 14px;
+    }
+  }
+}
+// end header area 
+// start product area
+#products{
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  h2{
+    padding-top: 4rem;
+  }
+  .see-all-cate{
+    padding: 2rem 0;
+    text-align: center;
+    img{
+      width: 100px;
+      margin-right: 1rem;
+    }
+    a{
+      color: $black;
+      transition: .5s;
+      &:hover{
+        color: $gainsboro;
+      }
+      img{
+        width: 15px;
+        margin-left: 1rem;
+        margin-bottom: -4px;
+      }
+    }
+  }
+}
+// end product area
+// start creative
+#creative{
+  background-image: url(../images/products/creative.png);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  margin: 5rem 0;
+  h2{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  p{
+    padding: 1rem 0;
+  }
+}
+// end creative
+// start trending now
+#trending{
+  padding: 4rem 0;
+  h2{
+    padding-bottom: 2rem;
+  }
+}
+// end trending now
+// start comfortable
+#comfortable{
+  background: #DBF3FF;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  .com-con{
+    padding-left: 3rem;
+    h2{
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    p{
+      padding: 2rem 0;
+    }
+  }
+}
+// end comfortable
+// start footer area
+footer{
+  #news-letter{
+    text-align: center;
+    padding: 8rem 0;
+    background-color: $footerColor;
+    h2{
+      color: $white;
+    }
+    .email-sub{
+      padding: 2rem 0;
+      input{
+        font-size: 1rem;
+        padding: 1rem;
+        border: none;
+        width: 400px;
+      }
+      button{
+        font-size: 1rem;
+        padding: 1rem;
+        border: none;
+        text-transform: uppercase;
+        img{
+          width: 15px;
+          margin-bottom: -3px;
+        }
+      }
+    }
+  }
+  #foter-bottom{
+    background-color: $black;
+    text-align: center;
+    padding: 3rem 0;
+    nav{
+      ul{
+        li{
+          display: inline-block;
+          a{
+            display: block;
+            text-transform: uppercase;
+            color: $gray_1;
+            font-weight: bold;
+            padding: 1rem;
+            transition: .5s;
+            &:hover{
+              color: $white
+            }
+          }
+        }
+      }
+    }
+    .copyright{
+      color: $gray_1;
+      padding-top: 2rem;
+      a{
+        color: $white;
+      }
+    }
+  }
+} 
+// end footer area 

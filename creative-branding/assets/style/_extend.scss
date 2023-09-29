@@ -1,0 +1,27 @@
+.btn {
+  color: #fff;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 1rem 2rem;
+  transition: .5s;
+  &:hover{
+    background-color: $whiteSmoke;
+    color: $blackShade;
+    border: 2px solid $blackShade;
+  }
+}
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+  &::after{
+    content: '';
+    display: block;
+    border: 1px solid $blackShade;
+    width: 100px;
+    margin: 1rem auto;
+  }
+}

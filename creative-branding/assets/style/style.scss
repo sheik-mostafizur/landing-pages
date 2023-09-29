@@ -1,0 +1,266 @@
+// all scss include here
+@import "all";
+// start style here
+
+// start header area
+header {
+  background-image: linear-gradient(
+      rgba(60, 60, 60, 0.8),
+      rgba(60, 60, 60, 0.8)
+    ),
+    url(../images/header-images.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 700px;
+  position: relative;
+  .header-con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    img {
+      width: 200px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 3rem;
+      text-transform: uppercase;
+      margin: 4rem 0;
+      width: 550px;
+      &::after {
+        content: "";
+        display: block;
+        border: 2px solid #fff;
+        width: 30%;
+        margin: 2rem auto;
+      }
+    }
+    p {
+      color: #fff;
+      margin: 4rem 0;
+    }
+    .angle-down {
+      img {
+        width: 15px;
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+// end header area
+
+// start nav and about
+#about-us {
+  nav {
+    text-align: center;
+    border-bottom: 2px solid $whiteSmoke;
+    ul {
+      li {
+        display: inline-block;
+        a {
+          text-transform: uppercase;
+          font-weight: bold;
+          color: $gray-1;
+          display: block;
+          padding: 1rem 2rem;
+          transition: 0.5s;
+          &:hover {
+            color: $y-gray;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    padding: 5rem 0;
+    h2 {
+      @extend .heading;
+    }
+    p {
+      text-align: center;
+      line-height: 2rem;
+      margin-top: 2rem;
+    }
+    .about-ser {
+      text-align: center;
+      img {
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+        border: 1px solid;
+        border-radius: 50%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      h3 {
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+// end nav and about
+
+// start portfolio area
+#portfolio {
+  background: $whiteSmoke;
+  padding: 5rem 0;
+  h2 {
+    @extend .heading;
+  }
+  a {
+    @extend .btn;
+    margin-top: 5rem;
+    color: $blackShade;
+    border-color: $blackShade;
+    &:hover {
+      background: $gray-1;
+      color: $whiteSmoke;
+    }
+  }
+}
+// end portfolio area
+
+// start thank you partners
+#partners {
+  background-image: linear-gradient(
+      rgba(60, 60, 60, 0.8),
+      rgba(60, 60, 60, 0.8)
+    ),
+    url(../images/thank-you-partners.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 0;
+  h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+  }
+  img {
+    max-width: 100px;
+    padding-top: 4rem;
+    display: block;
+    margin: 0 auto;
+  }
+}
+// end thank you partners
+
+// start contact
+#contact {
+  padding: 8rem 0;
+  @mixin input {
+    background: #ededed;
+    border: none;
+    border-top: 1px solid black;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    width: 95%;
+  }
+  @mixin label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    @extend .heading;
+  }
+  form {
+    &::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .name,
+    .email {
+      float: left;
+      width: 50%;
+      label {
+        @include label;
+      }
+      input{
+        @include input;
+      }
+    }
+    .mess{
+      label {
+        @include label;
+        padding-top: 10rem;
+      }
+      textarea{
+        @include input;
+        width: 95%;
+      }
+    }
+    .send-mes{
+      text-align: right;
+      input{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin-top: 1rem;
+        border: none;
+        background: #fff;
+        margin-right: 1.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+  p{
+    line-height: 5rem;
+    a{
+      color: $blackShade;
+    }
+  }
+  .social-links{
+    img{
+      width: 20px;
+      margin: 1rem;
+    }
+  }
+}
+// end contact
+
+// start footer area
+footer{
+  background: $blackShade;
+  img{
+    width: 150px;
+    display: block;
+    margin: 5rem auto;
+  }
+  nav{
+    ul{
+      text-align: center;
+      li{
+        display: inline-block;
+        a{
+          display: block;
+          color: $gray-1;
+          padding: 1rem;
+          transition: .5s;
+          &:hover{
+            color: $whiteSmoke;
+          }
+        }
+      }
+    }
+  }
+  .copyright{
+    padding: 3rem 0;
+    text-align: center;
+    a{
+      color: $gray-1;
+      transition: .5s;
+      &:hover{
+        color: $whiteSmoke;
+      }
+    }
+  }
+}
+// end footer area

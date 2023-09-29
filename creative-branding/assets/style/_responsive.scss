@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  // header area 
+  header .header-con h1 {
+    font-size: 2.5rem !important;
+  }
+  #about-us nav ul li a {
+    padding: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    .row {
+      [class*="col-m-"] {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        float: left;
+      }
+      @for $i from 1 through 12 {
+        .col-m-#{$i} {
+          width: 100% / 12 * $i;
+        }
+      }
+      &::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    }
+  }
+  #about-us nav ul li a{
+    font-size: 12px;
+    padding: 14px 5px !important;
+  }
+  footer nav ul li a {
+    font-size: 12px;
+    padding: 14px 5px !important;
+  }
+  footer .copyright {
+    padding: 2rem 0 !important;
+    
+  }
+  p{
+      font-size: 12px !important;
+    }
+}
+
+
+

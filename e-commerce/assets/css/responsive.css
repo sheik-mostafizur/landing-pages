@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px){
+  header .nav-area nav ul li a {
+    padding: 0.5rem;
+  }
+  header .header-search input {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 847px){
+  header .nav-area nav ul li a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 808px){
+  header .header-search input {
+    width: 85px;
+  }
+  header .nav-area nav ul li a {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 749px){
+  .container {
+    max-width: 749px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .container .row::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .container .col-m-25 {
+    width: 25%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  .container .col-m-33 {
+    width: 33.33333%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  .container .col-m-50 {
+    width: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  .container .col-m-75 {
+    width: 75%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  .container .col-m-100 {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    float: left;
+  }
+  /* header search area  */
+  header .header-search input {
+    width: fit-content;
+  }
+  #shop-details .shop-select-category .select-cat h1 {
+    font-size: 2rem;
+  }
+  #shop-details .shop-select-category .select-cat nav ul li a {
+    font-size: 1rem;
+  }
+  #shop-details .shop-all-things .sat-left {
+    display: none;
+  }
+}

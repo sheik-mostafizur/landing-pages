@@ -2,16 +2,6 @@
 
 const landingPageData = [
   {
-    title: "Corporate Landing",
-    publish: "Agu 30, 2022",
-    src: "./corporate_landing/",
-  },
-  {
-    title: "Planet",
-    publish: "Agu 24, 2022",
-    src: "./utopic-flowers/",
-  },
-  {
     title: "Planet",
     publish: "June 6, 2022",
     src: "./planet/",
@@ -80,6 +70,16 @@ const landingPageData = [
     title: "Digital Agency",
     publish: "Feb 12, 2022",
     src: "./degital-agency/",
+  },
+  {
+    title: "Corporate Landing",
+    publish: "Jun 15, 2021",
+    src: "./corporate_landing/",
+  },
+  {
+    title: "Planet",
+    publish: "Jun 1, 2021",
+    src: "./utopic-flowers/",
   },
 ];
 

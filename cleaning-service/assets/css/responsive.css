@@ -1,0 +1,159 @@
+@media screen and (max-width: 1032px) {
+  /* start header nav area */
+  header .nav-area button {
+    padding: 1rem !important;
+  }
+  /* start footer area google mapes */
+  footer .footer-top .google-mapes iframe {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* start header nav area */
+  header .nav-area nav ul li a {
+    padding: 0 10px !important;
+  }
+  /* start footer area form button  */
+  footer .footer-top form a {
+    padding: 0.5rem 1rem !important;
+  }
+  /* start footer area google mapes */
+  footer .footer-top .google-mapes iframe {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 910px) {
+  /* start header nav area */
+  header .banner-area h1 {
+    font-size: 4rem !important;
+  }
+  header .header-nav {
+    padding: 0.5rem 2rem !important;
+  }
+  header .nav-area nav ul li a {
+    font-size: 12px !important;
+    padding: 0 10px !important;
+  }
+  header .nav-area button {
+    font-size: 12px !important;
+    padding: 1rem !important;
+  }
+  header .banner-area .banner-con h3 {
+    font-size: 1.2rem !important;
+    padding-left: 1rem !important;
+  }
+  /* start services area  */
+  #services .residential .resi-left h2 {
+    font-size: 2rem !important;
+  }
+  /* start about area  */
+  #about-us .about-top .about-top-middle h2 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 897px) {
+  /* start footer area */
+  footer .footer-top form a {
+    font-size: 12px;
+    padding: 5px 10px !important;
+  }
+  footer .footer-top form img {
+    width: 18px !important;
+    margin-left: 5px !important;
+  }
+  footer .footer-bottom nav ul li a {
+    padding: 16px 12px !important;
+  }
+}
+@media screen and (max-width: 830px) {
+  /* start header area  */
+  header .nav-area nav ul li a {
+    padding: 0 9px !important;
+  }
+  header .nav-area button {
+    padding: 10px !important;
+  }
+  /* start footer area  */
+  footer .footer-bottom nav ul li a {
+    padding: 16px 10px !important;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  /* start banner-area */
+  header {
+    height: 600px !important;
+  }
+  header .banner-area {
+    padding: 2rem 0 !important;
+  }
+  /* start service  */
+  #services .residential {
+    margin-top: 1rem !important;
+  }
+  #services .residential .resi-left {
+    margin-bottom: 3rem !important;
+  }
+  #services .residential .m-resi-100 {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .mobile-50 {
+    width: 50% !important;
+  }
+  .mobile-100 {
+    width: 100% !important;
+  }
+  /* start hearder area  */
+  header .nav-area {
+    text-align: center !important;
+  }
+  header .banner-area .banner-con {
+    padding: 3rem 0 !important;
+  }
+  header .banner-area .banner-ser-box {
+    margin: 3rem auto !important;
+  }
+  /* devider  */
+  #header-bottom-divider hr {
+    display: none !important;
+  }
+  /* start service area  */
+  #services .residential .resi-right .resi-right-box .resiRBcon {
+    z-index: 1;
+  }
+  /* start customers reivew */
+  #customers-reivew .cust-right {
+    margin-top: 4rem !important;
+  }
+  /* start footer area  */
+  footer .footer-top .google-mapes {
+    margin-top: 3rem !important;
+  }
+  footer .footer-top .google-mapes iframe {
+    width: 500px !important;
+    margin: auto !important;
+    display: block !important;
+  }
+  footer .footer-bottom .social-icon {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .footer-top .google-mapes iframe {
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer .footer-top .google-mapes iframe {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-top .google-mapes iframe {
+    width: 300px !important;
+  }
+}

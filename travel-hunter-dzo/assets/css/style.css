@@ -1,0 +1,321 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* reset code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+/* default code */
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+/* color code  */
+:root{
+  --white: #fff;
+  --yellow: #F1C50E;
+  --blue-1: #141824;
+  --gray-1: #E8EAE3;
+}
+
+/* start header area */
+header{
+  height: 98vh;
+  background-image: url('../Images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+header h1{
+  font-size: 4rem;
+  padding: 4rem 0;
+}
+header .con{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+header .con .left h2,
+header .con .right h2{
+  padding: 2rem  0;
+  font-size: 2rem;
+}
+header .con .left i,
+header .con .right i{
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: var(--yellow);
+}
+/* end header area */
+
+/* start book-more area  */
+#book-more{
+  background-color: var(--blue-1);
+  color: var(--white);
+  padding: 4rem 0;
+}
+#book-more .learn-more{
+  text-align: center;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  padding: 5rem 0;
+  margin: 2rem 0;
+}
+#book-more .learn-more .user-review .user i{
+  font-size: 5rem;
+}
+#book-more .learn-more .user-review .review i{
+  font-size: 2rem;
+  margin: .5rem 0;
+}
+#book-more .learn-more h2{
+  margin: 2rem 0;
+}
+#book-more .items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+#book-more .items h2{
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+#book-more .items h2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 85%;
+  top: 0;
+  left: 15%;
+  background-color: var(--yellow);
+  z-index: -1;
+}
+/* end book-more area  */
+/* start industry's area  */
+#industry-area{
+  background-color: var(--gray-1);
+  padding: 5rem 0;
+}
+#industry-area .industry{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#industry-area .industry .left{
+  padding: 1rem;
+}
+#industry-area .industry .left i{
+  font-size: 4rem;
+  color: var(--yellow);
+}
+#industry-area .industry .left h2{
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+#industry-area .industry .left h2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 82%;
+  top: 0;
+  left: 18%;
+  background-color: var(--yellow);
+  z-index: -1;
+}
+#industry-area .industry .left p{
+  line-height: 2rem;
+}
+#industry-area .industry .left button{
+  background-color: var(--blue-1);
+  color: var(--white);
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  margin-top: 1rem;
+}
+/* end industry's area  */
+/* start book-more area  */
+#testimonials{
+  background-color: var(--blue-1);
+  color: var(--white);
+  padding-top: 5rem;
+}
+#testimonials .testimonials-user{
+  text-align: center;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  padding: 5rem 0;
+  margin: 2rem 0;
+}
+#testimonials .testimonials-user .user-review .user i{
+  font-size: 5rem;
+}
+#testimonials .testimonials-user .user-review .review i{
+  font-size: 2rem;
+  margin: .5rem 0;
+}
+#testimonials .testimonials-user h2{
+  margin: 2rem 0;
+}
+#testimonials .items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#testimonials .items img{
+  display: block;
+  height: 350px;
+}
+/* end book-more area  */
+/* start earning-more area */
+#earing-area{
+  background-color: var(--gray-1);
+  padding: 5rem 0;
+}
+#earing-area .start-earning{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#earing-area .start-earning .left{
+  padding: 1rem;
+}
+#earing-area .start-earning .right{
+  padding: 1rem;
+}
+#earing-area .start-earning .right h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+#earing-area .start-earning .right h2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  top: 0;
+  left: 10%;
+  background-color: var(--yellow);
+  z-index: -1;
+}
+#earing-area .start-earning .right p{
+  line-height: 1.5rem;
+}
+#earing-area .start-earning .right .sign-earn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+#earing-area .start-earning .right .sign-earn .sign-up i,
+#earing-area .start-earning .right .sign-earn .earn i
+{
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: var(--yellow);
+}
+#earing-area .start-earning .right .sign-earn .sign-up h3,
+#earing-area .start-earning .right .sign-earn .earn h3
+{
+  margin: 1rem 0;
+}
+#earing-area .start-earning .right .sign-earn .sign-up p,
+#earing-area .start-earning .right .sign-earn .earn p
+{
+  line-height: 1.5rem;
+}
+/* end earning-more area */
+/* start footer area */
+footer{
+  background-color: var(--blue-1);
+  padding: 5rem 0;
+}
+footer .footer-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer .footer-info .left{
+  padding: 1rem;
+  color: var(--white);
+}
+footer .footer-info .left .phone-mess{
+  margin-bottom: 1rem;
+}
+footer .footer-info .left .phone-mess i{
+  font-size: 4rem;
+  color: var(--yellow);
+}
+footer .footer-info .left .phone-mess i:last-child{
+  margin-left: 2rem;
+  display: inline-block;
+}
+footer .footer-info .left h2{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+}
+footer .footer-info .left h2::after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  top: 0;
+  left: 10%;
+  background-color: var(--yellow);
+  z-index: -1;
+}
+footer .footer-info .left a{
+  display: block;
+  color: var(--white);
+  line-height: 2rem;
+}
+footer .footer-info .left p{
+  margin: 2rem 0;
+  line-height: 1.5rem;
+}
+footer .footer-info .left .social-icon i{
+  font-size: 2rem;
+  margin: .5rem;
+  color: var(--yellow);
+}
+footer .footer-info .right{
+  padding: 1rem;
+}
+footer .footer-info .right input,
+footer .footer-info .right textarea{
+  display: block;
+  width: 100%;
+  background-color: var(--blue-1);
+  color: var(--white);
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid var(--white);
+}
+footer .footer-info .right [type="submit"]{
+  width: 30%;
+  margin: auto;
+  background-color: var(--white);
+  color: var(--blue-1);
+  border-radius: 5px;
+}
+/* end footer area */

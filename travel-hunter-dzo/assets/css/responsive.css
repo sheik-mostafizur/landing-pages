@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 768px;
+    padding: 0 1rem;
+  }
+  header .con {
+    grid-template-columns: 1fr;
+  }
+  #book-more .items {
+    row-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  #industry-area .industry {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  #testimonials .items {
+    grid-template-columns: 1fr;
+  }
+  #testimonials .items img {
+    height: auto;
+  }
+  #earing-area .start-earning {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  footer .footer-info {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+@media screen and (max-width: 480px){
+  header h1 {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+}

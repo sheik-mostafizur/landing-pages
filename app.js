@@ -3,6 +3,11 @@
 const landingPageData = [
   {
     title: "Planet",
+    publish: "Agu 24, 2022",
+    src: "./utopic-flowers/",
+  },
+  {
+    title: "Planet",
     publish: "June 6, 2022",
     src: "./planet/",
   },

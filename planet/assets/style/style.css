@@ -1,0 +1,228 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "Acumin Pro";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3D3D3D;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  header #banner .banner-item h5 {
+    font-size: 1.5rem;
+  }
+  header #banner .banner-item h1 {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header nav .navbar-brand {
+    width: 100% !important;
+    text-align: center;
+    display: block !important;
+  }
+  header nav .navbar-brand img {
+    width: 200px;
+  }
+  .show-cat {
+    display: block !important;
+  }
+  .show-cat i {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .show-cat i.hide {
+    display: block;
+  }
+  .show-cat i.active {
+    display: none;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    margin: auto;
+    z-index: 2;
+  }
+  aside {
+    background-color: rgba(184, 184, 184, 0.411) !important;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+  aside .categories {
+    background-color: rgb(240, 248, 255);
+    padding: 1rem;
+  }
+  footer {
+    text-align: center !important;
+  }
+}
+header nav .main-navbar a {
+  border-bottom: 4px solid transparent;
+  line-height: 3rem;
+  margin-bottom: -12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+header nav .main-navbar .nav-link.active {
+  border-bottom: 4px solid #198754;
+}
+header #banner .banner-item {
+  padding-top: 2.5rem;
+}
+header #banner .banner-item h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header #banner .banner-item h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+}
+header #banner .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  background-color: #198754;
+  border-radius: 50%;
+}
+header #banner .carousel-indicators {
+  margin-bottom: -2rem !important;
+}
+
+.show-cat {
+  display: none;
+}
+
+aside {
+  background-color: #f8f9fa;
+  margin: 3rem 0;
+  padding: 1rem;
+}
+aside .categories ul li a {
+  position: relative;
+  color: #3D3D3D;
+  transition: 0.5s;
+}
+aside .categories ul li a.active {
+  color: #198754 !important;
+}
+aside .categories ul li a span {
+  position: absolute;
+  right: 0;
+}
+aside .categories ul li .nav-link:focus,
+aside .categories ul li .nav-link:hover {
+  color: #198754 !important;
+}
+aside .categories .price-range .multi-range-slider #input-left {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #d7e7da;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+aside .categories .price-range .multi-range-slider #input-left:hover {
+  opacity: 1;
+}
+aside .categories .price-range .multi-range-slider #input-left::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}
+aside .categories .price-range .multi-range-slider #input-left::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #198754;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+main nav .main-navbar a {
+  border-bottom: 4px solid transparent;
+  margin-bottom: -12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+main nav .main-navbar .nav-link.active {
+  border-bottom: 4px solid #198754;
+}
+main .card {
+  position: relative;
+}
+main .card h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #198754;
+  color: #ffffff;
+  padding: 5px 8px;
+}
+main .card .card-body span {
+  color: #198754;
+}
+main .card .card-body span del {
+  color: #3D3D3D;
+}
+main .card .sls {
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+}
+main .card .sls i {
+  font-size: 1.8rem;
+  margin: 0 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #3D3D3D;
+}
+main .card:hover .sls {
+  opacity: 1;
+  bottom: 25%;
+}
+main nav.paginationStyle {
+  margin-top: 2rem;
+}
+main nav.paginationStyle ul li a {
+  color: #3D3D3D !important;
+}
+main nav.paginationStyle ul li a.active {
+  background-color: #198754;
+  color: #ffffff !important;
+}
+
+section.blog {
+  margin: 5rem 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 991px) {
+  header #banner .banner-item {
+    h5 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 2rem !important;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    nav {
+      .navbar-brand {
+        width: 100% !important;
+        text-align: center;
+        display: block !important;
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+  .show-cat {
+    display: block !important;
+    i {
+      color: $black-1;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+    i.hide {
+      display: block;
+    }
+    i.active {
+      display: none;
+      position: absolute;
+      top: 3%;
+      right: 5%;
+      margin: auto;
+      z-index: 2;
+    }
+  }
+  aside {
+    background-color: rgba(184, 184, 184, 0.411) !important;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    .categories {
+      background-color: rgb(240, 248, 255);
+      padding: 1rem;
+    }
+  }
+
+  footer{
+    text-align: center !important;
+  }
+}

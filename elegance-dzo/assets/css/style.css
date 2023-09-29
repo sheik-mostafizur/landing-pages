@@ -1,0 +1,218 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* reset all */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* colors */
+:root{
+  --blcak: #000000;
+  --white: #ffffff;
+  --w-1: #EBE2DE;
+}
+/* default code  */
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1280px;
+  padding: 0 0.5rem;
+  margin: auto;
+}
+/* start header area */
+header{
+  height: 98vh;
+  background-image: url(../images/elegant-woman.jpg);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header h1{
+  font-size: 8vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+/* end header area */
+
+/* start brands area */
+#brand{
+  background-color: var(--w-1);
+  height: 500px;
+  text-align: center;
+}
+#brand .brand-image{
+  padding-top: 4rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto auto;
+}
+#brand .brand-image img{
+  padding: 2rem;
+}
+#brand a {
+	display: inline-block;
+	margin-top: 3rem;
+	padding: .5rem 1rem;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: var(--white);
+	background: var(--blcak);
+}
+/* end brands area */
+
+/* start content-area */
+#content-area{
+  padding: 5rem 0;
+}
+#content-area .con{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#content-area .con .item{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+}
+#content-area .con .item .right{
+  padding-left: 2rem;
+}
+/* end content-area */
+
+/* start nick perry area */
+.sick-perry{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.sick-perry .right{
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+.sick-perry .right .social-link a i{
+  font-size: 2rem;
+  margin: 1rem;
+  color: var(--blcak);
+}
+.sick-perry .right .social-link h2{
+  text-transform: uppercase;
+}
+.sick-perry .right .con{
+  padding: 0 2rem;
+}
+.sick-perry .right .con p{
+  line-height: 1.5rem;
+}
+.sick-perry .right .con a{
+  display: block;
+  color: var(--blcak);
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+/* end nick perry area */
+
+/* start delivery area */
+#delivery{
+  text-align: center;
+  padding: 4rem 0;
+}
+#delivery h2{
+  font-weight: 100;
+  font-size: 3rem;
+  margin: 2rem;
+}
+#delivery h3{
+  font-size: 2rem;
+}
+#delivery .delivery-images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1rem;
+  padding: 4rem 0;
+}
+#delivery p{
+  padding: 0 2rem;
+  line-height: 1.5rem;
+}
+/* end delivery area */
+
+/* start footer area */
+footer{
+  background-color: var(--w-1);
+  padding: 5rem 0;
+}
+footer .footer-info{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 1rem;
+}
+footer .footer-info .get-in-touch h2{
+  font-weight: 100;
+  font-size: 2rem;
+}
+footer .footer-info .get-in-touch b{
+  display: block;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+footer .footer-info .get-in-touch p{
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+footer .footer-info .get-in-touch .social-icon a i{
+  font-size: 2rem;
+  margin: 2rem .5rem;
+  color: var(--blcak);
+}
+footer .footer-info .call-us .location,
+footer .footer-info .call-us .top-services{
+  margin-top: 1rem;
+}
+footer .footer-info .call-us a{
+  display: block;
+  font-weight: 100;
+  color: var(--blcak);
+  line-height: 2rem;
+}
+footer .footer-info .call-us p{
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+footer .footer-info .mess input,
+footer .footer-info .mess textarea
+{
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+  border: none;
+  border-radius: 10px;
+  color: var(--blcak);
+  outline: none;
+}
+footer .footer-info .mess [type="submit"]{
+  background-color: var(--blcak);
+  color: var(--white);
+  font-weight: bold;
+}
+/* end footer area */

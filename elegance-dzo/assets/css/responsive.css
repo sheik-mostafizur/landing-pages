@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+  
+}
+@media screen and (max-width: 480px) {
+  #brand {
+    height: auto !important;
+  }
+  #brand .brand-image {
+    grid-template-columns: auto !important;
+  }
+  #brand a{
+    margin-bottom: 2rem !important;
+  }
+  #content-area .con {
+    grid-template-columns: auto !important;
+  }
+  .sick-perry {
+    grid-template-columns: auto !important;
+  }
+  .sick-perry .right .con p {
+    margin: 2rem 0;
+  }
+  #delivery h2 {
+    font-size: 2rem !important;
+  }
+  #delivery h3{
+    font-size: 1.5rem !important;
+  }
+  #delivery .delivery-images {
+    grid-template-columns: auto !important;
+  }
+  footer .footer-info {
+    grid-template-columns: 100% !important;
+  }
+  footer .footer-info .get-in-touch,
+  footer .footer-info .call-us,
+  footer .footer-info .mess{
+    text-align: center !important;
+    padding: 2rem 0 !important;
+  }
+}

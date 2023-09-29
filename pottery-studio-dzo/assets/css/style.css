@@ -1,0 +1,239 @@
+/* reset all   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--white);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+}
+/* color  */
+:root {
+  --white: #ffffff;
+  --white-1: #eee9e5;
+  --black: #000000;
+  --black-1: #1e1d1b;
+  --black-2: #272624;
+  --yellow: #fdb467;
+}
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: var(--black);
+  background: var(--yellow);
+  padding: 0.5rem 2rem;
+  transition: 0.5s;
+}
+/* start header area  */
+header {
+  background-image: url(../images/Image_1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+header .content {
+  padding-top: 10rem;
+  padding-left: 8rem;
+}
+header .content h1 {
+  font-size: 3rem;
+}
+header .content p {
+  margin: 2rem 0;
+  line-height: 2rem;
+}
+/* end header area  */
+/* start about our studio */
+#about-studio {
+  text-align: center;
+}
+#about-studio:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#about-studio .left {
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding: 9rem 2rem;
+  background-color: var(--black-1);
+}
+#about-studio .left .con {
+  max-width: 600px;
+  margin: auto;
+}
+#about-studio .left h2 {
+  margin-bottom: 2rem;
+}
+#about-studio .left p{
+  line-height: 2rem;
+}
+#about-studio .right {
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding: 8rem 2rem;
+  background-color: var(--black-2);
+}
+#about-studio .right h2 {
+  margin-bottom: 2rem;
+}
+#about-studio .right p {
+  line-height: 2rem;
+}
+#about-studio .right a {
+  margin-top: 2rem;
+}
+/* end about our studio */
+
+/* start work shops */
+#workshops:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#workshops .left {
+  width: 30%;
+  height: 600px;
+  float: left;
+}
+#workshops .left .con {
+  padding: 5rem 2rem;
+  background-color: var(--white-1);
+  height: inherit;
+}
+#workshops .left .con h2 {
+  color: var(--black);
+  font-size: 2rem;
+}
+#workshops .left .con p {
+  color: var(--black);
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+#workshops .right {
+  width: 70%;
+  height: 600px;
+  float: left;
+}
+#workshops .right img {
+  height: inherit;
+}
+/* end work shops */
+
+/* start studio membership */
+#membership:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#membership .left {
+  width: 70%;
+  height: 600px;
+  float: left;
+}
+#membership .left img {
+  height: inherit;
+}
+#membership .right {
+  width: 30%;
+  height: 600px;
+  float: left;
+}
+#membership .right .con {
+  padding: 5rem 2rem;
+  background-color: var(--white-1);
+  height: inherit;
+}
+#membership .right .con h2 {
+  color: var(--black);
+  font-size: 2rem;
+}
+#membership .right .con p {
+  color: var(--black);
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+/* end studio membership */
+
+/* start from our students */
+#students-from {
+  background-color: var(--black-1);
+  border-bottom: 1px solid var(--white-1);
+}
+#students-from .bg-image {
+  background-image: url(../images/Image_4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+#students-from .con {
+  max-width: 500px;
+  height: 500px;
+  background: var(--white-1);
+  padding: 2rem;
+  margin-top: -20rem;
+  margin-left: 5rem;
+}
+#students-from .con h2 {
+  color: var(--black);
+  font-size: 2rem;
+  padding-top: 8rem;
+}
+#students-from .con p {
+  color: var(--black);
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+#students-from .con h3 {
+  color: var(--black);
+}
+/* end from our students */
+
+/* start footer area  */
+footer {
+  padding: 8rem 2rem;
+  background-color: var(--black-1);
+}
+footer .con {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+footer .con h2 {
+  font-size: 2rem;
+}
+footer .con p {
+  line-height: 1.5rem;
+  margin: 2rem 0;
+}
+footer .con form input[type="email"] {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+footer .con form input[type="button"] {
+  border: none;
+}
+/* end footer area  */

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  color: #6c757d;
+}
+
+a {
+  text-decoration: none;
+}
+
+header ul li {
+  padding: 0 5px;
+}
+
+header ul li a {
+  font-size: 1rem;
+  color: #6c757d !important;
+  border-bottom: 4px solid transparent;
+  -webkit-transition: 0.8s !important;
+  transition: 0.8s !important;
+}
+
+header ul li a:hover {
+  color: #0d6efd !important;
+  border-bottom: 4px solid #0d6efd;
+}
+
+header ul li a.active {
+  color: #0d6efd !important;
+  border-bottom: 4px solid #0d6efd;
+}
+
+header .banner .banner-left h1 {
+  font-size: 4rem;
+}
+
+header .banner .banner-left span i {
+  margin-bottom: -1rem;
+}
+
+header .banner .banner-right {
+  position: relative;
+}
+
+header .banner .banner-right .banner-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+}
+
+header .banner .banner-right .banner-icon i {
+  font-size: 3rem;
+  color: #0d6efd;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+}
+
+header .banner .banner-right .b-i-1 {
+  top: 5%;
+  left: 10%;
+}
+
+header .banner .banner-right .b-i-1 i {
+  -webkit-transform: translate(100%, 50%);
+          transform: translate(100%, 50%);
+}
+
+header .banner .banner-right .b-i-2 {
+  bottom: 15%;
+  left: 0;
+}
+
+header .banner .banner-right .b-i-3 {
+  top: 20%;
+  right: 0;
+}
+
+#community img {
+  border-radius: 4rem;
+}
+
+#community {
+  padding: 6rem 0;
+}
+
+#how-we-work {
+  padding: 6rem 0;
+}
+
+#sign-up {
+  padding: 6rem 0;
+}
+
+footer {
+  background-color: #F8FAFF;
+  padding: 8rem 0;
+}
+
+footer a {
+  color: #6c757d;
+}
+
+footer a i {
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+@media all and (max-width: 575px) {
+  header .banner .banner-left h1 {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+@import "all";
+// header area
+header {
+  ul {
+    li {
+      padding: 0 5px;
+      a {
+        font-size: 1rem;
+        color: $secondary !important;
+        border-bottom: 4px solid transparent;
+        transition: 0.8s !important;
+        &:hover {
+          color: $primary !important;
+          border-bottom: 4px solid $primary;
+        }
+        &.active {
+          color: $primary !important;
+          border-bottom: 4px solid $primary;
+        }
+      }
+    }
+  }
+  // header banner icons style
+  .banner {
+    .banner-left {
+      h1 {
+        font-size: 4rem;
+      }
+      span {
+        i {
+          margin-bottom: -1rem;
+        }
+      }
+    }
+    .banner-right {
+      position: relative;
+      .banner-icon {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: $white;
+        position: absolute;
+        i {
+          font-size: 3rem;
+          color: $primary;
+          transform: translate(50%, 50%);
+        }
+      }
+      .b-i-1 {
+        top: 5%;
+        left: 10%;
+        i {
+          transform: translate(100%, 50%);
+        }
+      }
+      .b-i-2 {
+        bottom: 15%;
+        left: 0;
+      }
+      .b-i-3 {
+        top: 20%;
+        right: 0;
+      }
+    }
+  }
+}
+// start community
+#community{
+  img{
+    border-radius: 4rem;
+  }
+}
+// start community
+#community{
+  padding: 6rem 0;
+}
+// start how we work area
+#how-we-work{
+  padding: 6rem 0;
+}
+// start singup area
+#sign-up{
+  padding: 6rem 0
+}
+// start footer area
+footer{
+  background-color: $footer;
+  padding: 8rem 0;
+  a{
+    color: $secondary;
+    i{
+      font-size: 1rem;
+      margin: 0 5px;
+    }
+  }
+}
+// responsive 
+@media all and (max-width: 575px){
+  header .banner .banner-left h1 {
+    font-size: 3rem;
+  }
+}

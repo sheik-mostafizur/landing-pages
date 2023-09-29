@@ -1,0 +1,105 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+* {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.custom-btn {
+  border: 2px solid var(--dark);
+  background-color: transparent;
+  color: var(--dark);
+}
+/* color */
+:root {
+  --gray-u: #2cccc4;
+  --dark: #212529;
+}
+/* start header area */
+header {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* end header area */
+
+/* start online area */
+#online {
+  padding: 8rem 0;
+}
+#online h3 {
+  color: var(--gray-u);
+}
+#online .half-circle {
+  position: absolute;
+  top: 49%;
+  transform: rotate(-50deg);
+  width: 69%;
+  left: 25%;
+  z-index: -1;
+}
+#online .past-weave {
+  width: 25%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -5rem;
+}
+/* end online area */
+/* start brain area */
+#brain {
+  background-color: var(--gray-u);
+  padding: 5rem 0;
+}
+#brain .white-weave {
+  top: -50%;
+}
+/* end brain area */
+/* start enjoy area */
+#enjoy {
+  padding: 5rem 0;
+}
+/* end enjoy area */
+
+/* start practice area */
+#practice {
+  background-color: var(--gray-u);
+  padding: 5rem 0;
+}
+#practice .black-half-circle{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto -4rem auto;
+  transform: rotate(90deg);
+  }
+/* end practice area */
+
+/* start education area */
+#education {
+  padding: 5rem 0;
+}
+#education .title {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  background-image: url(../images/shapes/past-half-cricle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#education .edicatopm-card {
+  margin-top: -8rem;
+}
+/* end education area */
+/* start footer area */
+footer {
+}
+/* end footer area */
